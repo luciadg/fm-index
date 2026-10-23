@@ -61,6 +61,22 @@ Positions:   [0, 4, 10, 13]
 - The text cannot contain `$`, because the program adds it at the end.
 - K must be an integer greater than or equal to 1.
 
+## Tests
+
+```
+python test.py
+```
+
+It searches some example texts with the basic version, the improved version and a simple search that tries every position of the text, and checks that all three give the same positions:
+
+```
+OK   abaaba aba [0, 3]
+OK   banana ana [1, 3]
+OK   abaaba bb []
+OK   TTATTTATGATTATTATC TTA [0, 4, 10, 13]
+OK   hola mundo hola hola [0, 11]
+```
+
 ## Context and credits
 
 Assignment for the course *Procesamiento avanzado de secuencias biológicas* (2026/2027). `suffixArray`, `bwtViaSa` and `firstCol` are adapted from the course slides (based on Ben Langmead's teaching material). The rest is my own work.
