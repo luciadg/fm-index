@@ -8,6 +8,8 @@ Searching for a pattern by reading the whole text every time is slow when the te
 
 It is used in bioinformatics to align millions of short DNA reads against a reference genome. Tools like Bowtie and BWA are built on it.
 
+This is an educational implementation, written to be easy to read and understand. It works for texts of any length, but it is not optimized for very large ones like full genomes.
+
 ## How it works
 
 1. **Build the index** from the text (a `$` is added at the end to mark it):
