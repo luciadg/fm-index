@@ -78,4 +78,5 @@ OK   hola mundo hola hola [0, 11]
 ```
 
 ## Context and credits
-Assignment for the course Procesamiento avanzado de secuencias biológicas (2026/2027), Master's in Bioinformatics for Health Sciences (UDC).`suffixArray`, `bwtViaSa` and `firstCol` are adapted from the course slides (based on Ben Langmead's teaching material). The rest is my own work.
+Assignment for the course *Procesamiento avanzado de secuencias biológicas* (2026/2027), Master's in Bioinformatics for Health Sciences (UDC). `suffixArray`, `bwtViaSa` and `firstCol` are adapted from the course slides (based on Ben Langmead's teaching material). The rest is my own work.
+
